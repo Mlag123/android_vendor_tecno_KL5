@@ -318,7 +318,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/KL5/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy.rc \
     vendor/tecno/KL5/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/tecno/KL5/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
-    vendor/tecno/KL5/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/tecno/KL5/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/tecno/KL5/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/tecno/KL5/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -954,7 +953,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
-    android.hardware.wifi.supplicant_hidl.xml \
     gnss-mtk.xml \
     gnss@2.1-service.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
@@ -984,7 +982,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.2-service \
     vendor.trustonic.tee@1.1-service \
     vtservice_hidl \
-    wpa_supplicant \
     ipsec_mon \
     kmsetkey_ca.trustonic \
     mcDriverDaemon \
